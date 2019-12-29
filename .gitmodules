@@ -1,0 +1,21 @@
+[submodule "dhd"]
+	path = dhd
+	url = https://github.com/mer-hybris/droid-hal-device
+[submodule "hybris-patches"]
+	path = hybris-patches
+	url = https://github.com/sailfish-wearable/hybris-patches.git
+[submodule "hybris/hybris-boot"]
+	path = hybris/hybris-boot
+	url = https://github.com/mer-hybris/hybris-boot
+[submodule "hybris/mer-kernel-check"]
+	path = hybris/mer-kernel-check
+	url = https://github.com/mer-hybris/mer-kernel-check
+[submodule "hybris/libhybris"]
+	path = hybris/libhybris
+	url = https://github.com/mer-hybris/libhybris
+[submodule "hybris/android_external_busybox_prebuilt"]
+	path = hybris/android_external_busybox_prebuilt
+	url = https://github.com/mer-hybris/android_external_busybox_prebuilt
+[submodule "hybris/android_external_selinux_stubs"]
+	path = hybris/android_external_selinux_stubs
+	url = https://github.com/mer-hybris/android_external_selinux_stubs
