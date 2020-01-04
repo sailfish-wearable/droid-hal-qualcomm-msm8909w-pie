@@ -1,11 +1,15 @@
 # These and other macros are documented in dhd/droid-hal-device.inc
 # Feel free to cleanup this file by removing comments, once you have memorised them ;)
 
-%define vendor qualcomm
-
-%define rpm_vendor qualcomm
+#%define vendor qualcomm
+#
+#%define rpm_vendor qualcomm
 
 %define installable_zip 1
+
+%define droid_target_armv7hl 1
+
+%define additional_ha_groups radio
 
 %include rpm/dhd/droid-hal-device.inc
 
