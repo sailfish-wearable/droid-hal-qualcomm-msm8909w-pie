@@ -1,0 +1,1 @@
+rpm/droid-hal-skipjack.spec
