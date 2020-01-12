@@ -15,6 +15,11 @@
 /usr/bin/groupadd-user radio || :\
 %{nil}
 
+%define straggler_files \
+/plat_property_contexts \
+/vendor_property_contexts \
+%{nil}
+
 %include rpm/dhd/droid-hal-device.inc
 
 # IMPORTANT if you want to comment out any macros in your .spec, delete the %
