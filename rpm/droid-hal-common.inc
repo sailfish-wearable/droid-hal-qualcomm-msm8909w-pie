@@ -11,6 +11,10 @@
 
 %define additional_ha_groups radio
 
+%define additional_post_scripts \
+/usr/bin/groupadd-user radio || :\
+%{nil}
+
 %include rpm/dhd/droid-hal-device.inc
 
 # IMPORTANT if you want to comment out any macros in your .spec, delete the %
